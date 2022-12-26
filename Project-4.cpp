@@ -1,18 +1,9 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
-#include <conio.h>
-#include <stdlib.h>
-#include <limits>
 
-#include "SECURITY GUI.h"
-
+//#include "SECURITY GUI.h"
 //void SecurityGUI(int choice);
-void ignoreLine()
-{
-	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-}
-
 
 int main()
 {
@@ -212,6 +203,8 @@ int main()
 	std::cout << " ------------\n";
 	std::cout << "| EXITING... |\n";
 	std::cout << " ------------\n";
+
+	//Project is added in gitHub ( Project-4 ).
 
 	return 0;
 }
